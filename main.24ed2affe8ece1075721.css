@@ -1,0 +1,39 @@
+:root {
+  --bg-color: rgba(0,0,0,.8);
+  --heading-color: #fff;
+  --text-color: #ccc; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: rgba(0,0,0,.8);
+  background-color: var(--bg-color); }
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  color: var(--heading-color); }
+
+p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ccc;
+  color: var(--text-color); }
+
