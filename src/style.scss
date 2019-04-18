@@ -1,0 +1,35 @@
+:root {
+    --bg-color: rgba(0,0,0,.8);
+    --heading-color: #fff;
+    --text-color: #ccc;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--bg-color);
+  }
+
+  h1 {
+      font-size: 3rem;
+      color: var(--heading-color);
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
