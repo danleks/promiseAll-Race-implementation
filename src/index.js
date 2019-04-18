@@ -17,7 +17,7 @@ function promiseRace(promises) {
     let result;
 
     function notPromise(value){
-      return typeof value !== 'object';
+      return typeof value !== 'object' || value === null;
     };
 
       // check if num or string
