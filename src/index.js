@@ -20,7 +20,7 @@ function promiseRace(promises) {
       return typeof value !== 'object' || value === null;
     };
 
-      // check if num or string
+      // check if num, str
     if (promises.findIndex(notPromise) > -1) {
       return promises[promises.findIndex(notPromise)];
     };
